@@ -17,7 +17,7 @@ Requirements:
 
 Basic Usage:
 
-`python3 simple_pyaes_bruteforce.py -i web_20250806_120723.zip.aes -w rockyou.txt -o web.zip`
+`python3 simple_pyaes_bruteforce.py -i file.zip.aes -w list.txt -o web.zip`
 
 
 Notes:

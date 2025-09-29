@@ -2,7 +2,7 @@
 # simple_pyaes_bruteforce.py
 # Usage:
 #   python3 simple_pyaes_bruteforce.py -i file.zip.aes -w list.txt -o web.zip
-#   python3 simple_pyaes_bruteforce.py -i file.zip.aes -w list.txt -o  web.zip --resume 123456
+#   python3 simple_pyaes_bruteforce.py -i file.zip.aes -w list.txt -o  web.zip --resume 1000
 
 import argparse, os, sys
 try:

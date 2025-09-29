@@ -20,13 +20,13 @@ Basic Usage:
 `python3 simple_pyaes_bruteforce.py -i web_20250806_120723.zip.aes -w rockyou.txt -o web.zip`
 
 
-Notes
+Notes:
 
-Buffer size defaults to 64 KiB (pyAesCrypt default).
+- Buffer size defaults to 64 KiB (pyAesCrypt default).
 
-On success: prints the password, writes the decrypted archive to -o/--output.
+- On success: prints the password, writes the decrypted archive to -o/--output.
 
-On failure: exits with non-zero status and prints a short message.
+- On failure: exits with non-zero status and prints a short message.
 
 Disclaimer
 

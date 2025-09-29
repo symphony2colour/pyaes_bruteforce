@@ -28,6 +28,6 @@ Notes:
 
 - On failure: exits with non-zero status and prints a short message.
 
-Disclaimer
+Disclaimer:
 
 For educational and legitimate recovery/testing purposes only. Do not use on files you don’t have permission to access.

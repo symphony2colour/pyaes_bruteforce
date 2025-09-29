@@ -4,8 +4,11 @@ A tiny, single-process pyAesCrypt password bruteforcer for .aes files.
 Features:
 
 Works with standard pyAesCrypt AES files (*.zip.aes, *.tar.gz.aes, etc.)
+
 Safe temp file handling (writes to output.tmp then atomically renames on success)
+
 Progress heartbeat (--status-every N)
+
 Resume from a wordlist offset (--resume N)
 
 Requirements:

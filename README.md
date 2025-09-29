@@ -12,12 +12,6 @@ Requirements:
 
 `pip3 install pyAesCrypt`
 
-Usage: 
-
-`python3 simple_pyaes_bruteforce.py -i <file.aes> -w <wordlist.txt> [-o cracked.zip] [--resume N] [--status-every 5000]`
-
-
-
 Basic Usage:
 
 `python3 simple_pyaes_bruteforce.py -i web_20250806_120723.zip.aes -w rockyou.txt -o web.zip`

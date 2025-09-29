@@ -3,13 +3,13 @@ A tiny, single-process pyAesCrypt password bruteforcer for .aes files.
 
 Features:
 
-Works with standard pyAesCrypt AES files (*.zip.aes, *.tar.gz.aes, etc.)
+- Works with standard pyAesCrypt AES files (*.zip.aes, *.tar.gz.aes, etc.)
 
-Safe temp file handling (writes to output.tmp then atomically renames on success)
+- Safe temp file handling (writes to output.tmp then atomically renames on success)
 
-Progress heartbeat (--status-every N)
+- Progress heartbeat (--status-every N)
 
-Resume from a wordlist offset (--resume N)
+- Resume from a wordlist offset (--resume N)
 
 Requirements:
 
@@ -23,7 +23,9 @@ Basic Usage:
 Notes
 
 Buffer size defaults to 64 KiB (pyAesCrypt default).
+
 On success: prints the password, writes the decrypted archive to -o/--output.
+
 On failure: exits with non-zero status and prints a short message.
 
 Disclaimer

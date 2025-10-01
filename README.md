@@ -57,7 +57,7 @@ python simple_pyaes_bruteforce.py \
 ```
 
 ```bash
-# Resume from a specific wordlist index (e.g., 123456th candidate)
+# Resume from a specific wordlist index (e.g., 10000th candidate)
 python simple_pyaes_bruteforce.py \
   -i web_20250806_120723.zip.aes \
   -w rockyou.txt \

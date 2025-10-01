@@ -62,7 +62,7 @@ python simple_pyaes_bruteforce.py \
   -i web_20250806_120723.zip.aes \
   -w rockyou.txt \
   -o web.zip \
-  --resume 123456
+  --resume 10000
 ```
 
 Command‑line options (as implemented in this repository):

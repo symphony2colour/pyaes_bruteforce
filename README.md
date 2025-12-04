@@ -10,7 +10,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Wordlist brute force** against pyAesCrypt (`*.aes`) files
 - **Resume** capability via `--resume <N>` to skip the first *N* candidates
@@ -22,7 +22,7 @@
 
 ---
 
-## 🧩 How it works (at a glance)
+##  How it works (at a glance)
 
 For each candidate password in the wordlist:
 1. Attempt decryption via `pyAesCrypt.decryptFile(infile, tmp_out, password, BUF_SIZE)`.
@@ -33,7 +33,7 @@ No plaintext is kept if a password is incorrect; temporary files are cleaned up.
 
 ---
 
-## 🚀 Quick start
+##  Quick start
 
 ### 1) Install requirements
 
@@ -88,7 +88,7 @@ Command‑line options (as implemented in this repository):
 
 ---
 
-## 🛡️ Ethics & legal
+##  Ethics & legal
 
 This tool is intended for:
 - recovering **your own** lost passwords,
@@ -98,7 +98,7 @@ Do **not** use it on data you do not own or lack explicit permission to test. Yo
 
 ---
 
-## 🧪 Tips
+##  Tips
 
 - Make sure your terminal encoding can handle passwords with non‑ASCII characters.  
 - Consider **splitting** large wordlists and using the `--resume` flag to chunk progress.  
@@ -106,7 +106,7 @@ Do **not** use it on data you do not own or lack explicit permission to test. Yo
 
 ---
 
-## 📦 Project layout
+##  Project layout
 
 ```
 .
@@ -116,7 +116,7 @@ Do **not** use it on data you do not own or lack explicit permission to test. Yo
 
 ---
 
-## 📝 License
+##  License
 
 MIT — see `LICENSE`.
 

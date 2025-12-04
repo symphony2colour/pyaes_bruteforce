@@ -78,7 +78,7 @@ Command‑line options (as implemented in this repository):
 
 ---
 
-## ⚙️ Notes & limitations
+## Notes & limitations
 
 - **Format**: Supports files created with **pyAesCrypt**. (This is not a generic AES file cracker.)  
 - **Buffer size**: Defaults to `BUF_SIZE = 64 * 1024` (64 KiB), matching pyAesCrypt defaults.  
@@ -122,6 +122,6 @@ MIT — see `LICENSE`.
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - pyAesCrypt for the encryption container and reference implementation.
